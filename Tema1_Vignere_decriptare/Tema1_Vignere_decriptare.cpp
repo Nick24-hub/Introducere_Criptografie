@@ -95,7 +95,7 @@ string DetKey(string &a, int kl)
             y += a[l];
             l += kl;
         }
-        for (s = 0;s < 26;s++)
+        for (s = 0;s < 26;++s)
         {
             for ( k = 0;k < 26;++k)
                 fr[k] = 0;
